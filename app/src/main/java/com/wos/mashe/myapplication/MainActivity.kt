@@ -18,12 +18,20 @@ class MainActivity : AppCompatActivity() {
          * this is yahya oworking on login module
          */
 
+
      /*   val btnSumit = findViewById<Button>(R.id.btnSumit)
         btnSumit.setOnClickListener {
             Toast.makeText(this, "Button Click..", Toast.LENGTH_SHORT).show()
 
         }
 */
+
+        val btnSumit = findViewById<Button>(R.id.btnSumit)
+        btnSumit.setOnClickListener {
+            Toast.makeText(this, "Button Click..", Toast.LENGTH_SHORT).show()
+        }
+
+
 
     }
 }
