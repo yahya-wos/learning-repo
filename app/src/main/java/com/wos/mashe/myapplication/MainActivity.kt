@@ -1,7 +1,9 @@
 package com.wos.mashe.myapplication
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -11,5 +13,11 @@ class MainActivity : AppCompatActivity() {
         /**
          * this is new comment added
          */
+
+
+        val btnSumit = findViewById<Button>(R.id.btnSumit)
+        btnSumit.setOnClickListener {
+            Toast.makeText(this, "Button Click..", Toast.LENGTH_SHORT).show()
+        }
     }
 }
